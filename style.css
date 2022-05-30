@@ -8,24 +8,25 @@ body {
   font-weight: 200;
   line-height: 1.4;
   color: #555;
-
+  max-width: 1200px;
   display: flex;
   align-items: center;
-  height: 100%;
-  max-width: 1200px;
+  min-height: 100%;
   margin: auto;
 }
 
 #container {
-  margin: 1rem;
-  max-width: 1200px;
+  margin: 2rem 1.2rem;
 }
 * {
   margin: 0;
+  /* outline: solid 1px red; */
+  /* transition: transform ease 0.5s; */
 }
 main {
   max-width: 45ch;
-  /* transform: perspective(50vw) rotateX(16deg) rotateY(-16deg) rotateZ(1deg); */
+  /* transform: perspective(700px) rotateX(0) rotateY(0) rotateZ(0); */
+  /* transform: perspective(700px) rotateX(16deg) rotateY(-16deg) rotateZ(1deg); */
 }
 h1 {
   line-height: 1.1;
@@ -54,7 +55,7 @@ p em {
 }
 
 footer {
-  margin: 5rem 0 2rem;
+  margin: 5rem 0 0;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   font-size: 0.7em;
